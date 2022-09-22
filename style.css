@@ -1,126 +1,87 @@
-
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-
-    
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
 }
-
-.container{
-    border:solid 2px;
-    width:600px;
-    height:400px;
-    margin:auto;
-    margin-top: 20px;
-    padding: 8px 12px;
-    display: flex;
+.container {
+	border:solid 2px;
+	width:600px;
+	height:400px;
+	margin:auto;
+	margin-top:20px;
+	padding:8px 12px;
+	display:flex;
 }
-
-#cuadro{
-    border: solid 1px;
-    height: 100px;
-    width: 100px;
-    margin: 20px;
-  
-    font-size: 30px;
-    margin-left: 55px;
-    position: absolute;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-  
+#cuadro {
+	border:solid 1px;
+	height:100px;
+	width:100px;
+	margin:20px;
+	font-size:30px;
+	margin-left:55px;
+	position:absolute;
+	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content:center;
 }
-
-.termometro{
-
-    transform: rotate(180deg);
-   
-   
-    border: solid 1px ;
-    width: 51px;
-    height: 252px;
-    margin-top: 50px;
-    margin-left: 30px;
-    border-radius: 20px;
-   
-
+.termometro {
+	transform:rotate(180deg);
+	border:solid 1px;
+	width:51px;
+	height:252px;
+	margin-top:50px;
+	margin-left:30px;
+	border-radius:20px;
 }
-
-#mercurio{
-    border-radius: 20px;
-    transform: rotate(180deg);
-
-    width: 50px;
-    height: 250px;
-    background-color:blue ;
-    
+#mercurio {
+	border-radius:20px;
+	transform:rotate(180deg);
+	width:50px;
+	height:250px;
+	background-color:blue;
 }
-
-.titulo{
-    font-size:larger;
-    font-weight:900;
-    margin-right: 64px;
-    margin-bottom: 61px;
+.titulo {
+	font-size:larger;
+	font-weight:900;
+	margin-right:64px;
+	margin-bottom:61px;
 }
-
-#i{ 
-
-
-    width: 50px;
-    height: 50px;
-  margin-left: 79px;
-  margin-bottom: 50px;
-  font-size: larger;
-  text-align: center;
-  
+#ingreso {
+	width:50px;
+	height:50px;
+	margin-left:79px;
+	margin-bottom:50px;
+	font-size:larger;
+	text-align:center;
 }
-
-#send{
-
-    float: right;
-    display: flex;
-    position: absolute;
-    background-color: aqua;
-    margin-left: 65px;
+#send {
+	float:right;
+	display:flex;
+	position:absolute;
+	background-color:aqua;
+	margin-left:65px;
 }
-
-.subtitulo{
-    text-align: center;
-    margin-right: 138px;
-
+.subtitulo {
+	text-align:center;
+	margin-right:138px;
 }
-
-.uno{
-    position: relative;
-    width:352px;
-    float: left;
-
+.uno {
+	position:relative;
+	width:352px;
+	float:left;
 }
-
-.dos{
-    
-   
-    width: 248px;
-    height: 399px;
-
+.dos {
+	width:248px;
+	height:399px;
 }
-
-.grado1{
-    position: absolute;
-    margin-left: 43px;
-    margin-top:28px;
-
-
+.grado1 {
+	position:absolute;
+	margin-left:43px;
+	margin-top:28px;
 }
-
-.grado2{
-    position: absolute;
-    margin-left: 50px;
-    margin-bottom:23px;
-
-
+.grado2 {
+	position:absolute;
+	margin-left:50px;
+	margin-bottom: 23px;
 }
-
