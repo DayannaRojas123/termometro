@@ -1,27 +1,26 @@
 
-
-const lista=['juan','german','sergio','john','robinson','karl','dayanna','farit','nasly']
-
+let boton=document.getElementById('send')
 
 
-function generarlista(vec){
 
-    function inicio(){
-        list="<ol>"
-    }
-   let list=''
-    inicio()
-    function fin(){
-        list=list+'</ol>'
+function conversion(){
 
-    }
+   let fin=document.getElementById('i').value
+    let r= ((fin-32)*5/9).toFixed(1)
+  
+    document.getElementById('cuadro').innerText=r
+    document.getElementById('mercurio').style.height=r+'%'
+  
+    
 
-    for(let i=0;i<vec.length;i++){
-        list=list+'<li>'+vec[i]+'</li>'
-    }
-    fin()
-    return list
+  
 
 }
 
-document.getElementByI ('lista') .innerHTML= generarlista
+
+
+
+
+
+
+boton.addEventListener('click', conversion)
