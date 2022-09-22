@@ -1,5 +1,7 @@
 let boton = document.getElementById('send')
 
+let boton2 = document.getElementById('reinicio')
+
 
 function conversion() {
 
@@ -44,5 +46,21 @@ function conversion() {
 
 
 
+
+   function reinicio(){
+
+    document.getElementById('mercurio').style.height = '0px' 
+      
+    document.getElementById('cuadro').innerText=''
+    document.getElementById('ingreso').value=''
+
+
+
+   }
+
+
+
+
+boton2.addEventListener('click' , reinicio)
 
 boton.addEventListener('click', conversion)

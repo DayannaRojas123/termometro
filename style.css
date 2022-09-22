@@ -38,7 +38,7 @@
 	border-radius:20px;
 	transform:rotate(180deg);
 	width:50px;
-	height:250px;
+	/* height:250px; */
 	background-color:blue;
 }
 .titulo {
@@ -84,4 +84,13 @@
 	position:absolute;
 	margin-left:50px;
 	margin-bottom: 23px;
+}
+
+#reinicio{
+    float:right;
+	display:flex;
+	position:relative;
+	background-color:aqua;
+	margin-left:65px;
+  
 }
